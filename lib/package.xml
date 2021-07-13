@@ -3,6 +3,12 @@
     <types>
         <name>CustomObject</name>
         <members>Case</members>
+        <members>Contact</members>
+    </types>
+    <types>
+        <name>FlexiPage</name>
+        <members>YoungPerson</members>
+        <members>Contact</members>
     </types>
     <version>51.0</version>
 </Package>

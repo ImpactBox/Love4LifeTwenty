@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Contact Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mentor</fullName>
+                <default>false</default>
+                <label>Mentor</label>
+            </value>
+            <value>
+                <fullName>Donor (Major)</fullName>
+                <default>false</default>
+                <label>Donor (Major)</label>
+            </value>
+            <value>
+                <fullName>Donor</fullName>
+                <default>false</default>
+                <label>Donor</label>
+            </value>
+            <value>
+                <fullName>Challenge eventer</fullName>
+                <default>false</default>
+                <label>Challenge eventer</label>
+            </value>
+            <value>
+                <fullName>Supporter (Business)</fullName>
+                <default>false</default>
+                <label>Supporter (Business)</label>
+            </value>
+            <value>
+                <fullName>Supporter (Individual)</fullName>
+                <default>false</default>
+                <label>Supporter (Individual)</label>
+            </value>
+            <value>
+                <fullName>Referrer</fullName>
+                <default>false</default>
+                <label>Referrer</label>
+            </value>
+            <value>
+                <fullName>Staff</fullName>
+                <default>false</default>
+                <label>Staff</label>
+            </value>
+            <value>
+                <fullName>Prospects</fullName>
+                <default>false</default>
+                <label>Prospects</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

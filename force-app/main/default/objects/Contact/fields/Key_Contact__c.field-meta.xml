@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Key_Contact__c</fullName>
+    <externalId>false</externalId>
+    <label>Lead Contact</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Set</fullName>
+                <default>true</default>
+                <label>Not Set</label>
+            </value>
+            <value>
+                <fullName>Alice Clapton</fullName>
+                <default>false</default>
+                <label>Alice Clapton</label>
+            </value>
+            <value>
+                <fullName>Alisha Hollins</fullName>
+                <default>false</default>
+                <label>Alisha Hollins</label>
+            </value>
+            <value>
+                <fullName>Aminata Kamara</fullName>
+                <default>false</default>
+                <label>Aminata Kamara</label>
+            </value>
+            <value>
+                <fullName>Amy Connell</fullName>
+                <default>false</default>
+                <label>Amy Connell</label>
+            </value>
+            <value>
+                <fullName>Andy Stone</fullName>
+                <default>false</default>
+                <label>Andy Stone</label>
+            </value>
+            <value>
+                <fullName>Anna Yates</fullName>
+                <default>false</default>
+                <label>Anna Yates</label>
+            </value>
+            <value>
+                <fullName>Anne Clow</fullName>
+                <default>false</default>
+                <label>Anne Clow</label>
+            </value>
+            <value>
+                <fullName>Anthony Parkes</fullName>
+                <default>false</default>
+                <label>Anthony Parkes</label>
+            </value>
+            <value>
+                <fullName>Bethany Gladwin</fullName>
+                <default>false</default>
+                <label>Bethany Gladwin</label>
+            </value>
+            <value>
+                <fullName>Christian Zamore</fullName>
+                <default>false</default>
+                <label>Christian Zamore</label>
+            </value>
+            <value>
+                <fullName>Dani de Simone</fullName>
+                <default>false</default>
+                <label>Dani de Simone</label>
+            </value>
+            <value>
+                <fullName>Emma Mullins</fullName>
+                <default>false</default>
+                <label>Emma Mullins</label>
+            </value>
+            <value>
+                <fullName>Gary Lane</fullName>
+                <default>false</default>
+                <label>Gary Lane</label>
+            </value>
+            <value>
+                <fullName>Isobel Lowings</fullName>
+                <default>false</default>
+                <label>Isobel Lowings</label>
+            </value>
+            <value>
+                <fullName>James Barnsley</fullName>
+                <default>false</default>
+                <label>James Barnsley</label>
+            </value>
+            <value>
+                <fullName>Joanna Burrows</fullName>
+                <default>false</default>
+                <label>Joanna Burrows</label>
+            </value>
+            <value>
+                <fullName>John Olaeye</fullName>
+                <default>false</default>
+                <label>John Olaeye</label>
+            </value>
+            <value>
+                <fullName>Jo Woodman</fullName>
+                <default>false</default>
+                <label>Jo Woodman</label>
+            </value>
+            <value>
+                <fullName>Karen Varty</fullName>
+                <default>false</default>
+                <label>Karen Varty</label>
+            </value>
+            <value>
+                <fullName>Kay Bennett</fullName>
+                <default>false</default>
+                <label>Kay Bennett</label>
+            </value>
+            <value>
+                <fullName>Keith Taylor</fullName>
+                <default>false</default>
+                <label>Keith Taylor</label>
+            </value>
+            <value>
+                <fullName>Lisa Powell</fullName>
+                <default>false</default>
+                <label>Lisa Powell</label>
+            </value>
+            <value>
+                <fullName>Liv Bauckham</fullName>
+                <default>false</default>
+                <label>Liv Bauckham</label>
+            </value>
+            <value>
+                <fullName>Lizz Scarborough</fullName>
+                <default>false</default>
+                <label>Lizz Scarborough</label>
+            </value>
+            <value>
+                <fullName>Maria Pilinovics</fullName>
+                <default>false</default>
+                <label>Maria Pilinovics</label>
+            </value>
+            <value>
+                <fullName>Matt Benton</fullName>
+                <default>false</default>
+                <label>Matt Benton</label>
+            </value>
+            <value>
+                <fullName>Mohsin Shaikh</fullName>
+                <default>false</default>
+                <label>Mohsin Shaikh</label>
+            </value>
+            <value>
+                <fullName>Olivia Pitt</fullName>
+                <default>false</default>
+                <label>Olivia Pitt</label>
+            </value>
+            <value>
+                <fullName>Paul Barker</fullName>
+                <default>false</default>
+                <label>Paul Barker</label>
+            </value>
+            <value>
+                <fullName>Prashant Jadav</fullName>
+                <default>false</default>
+                <label>Prashant Jadav</label>
+            </value>
+            <value>
+                <fullName>Rax Gudka</fullName>
+                <default>false</default>
+                <label>Rax Gudka</label>
+            </value>
+            <value>
+                <fullName>Richard Kryger-Stone</fullName>
+                <default>false</default>
+                <label>Richard Kryger-Stone</label>
+            </value>
+            <value>
+                <fullName>Rob Cook</fullName>
+                <default>false</default>
+                <label>Rob Cook</label>
+            </value>
+            <value>
+                <fullName>Sarah Roberts</fullName>
+                <default>false</default>
+                <label>Sarah Roberts</label>
+            </value>
+            <value>
+                <fullName>Sarah Sharpe</fullName>
+                <default>false</default>
+                <label>Sarah Sharpe</label>
+            </value>
+            <value>
+                <fullName>Sean Stocks</fullName>
+                <default>false</default>
+                <label>Sean Stocks</label>
+            </value>
+            <value>
+                <fullName>Sophie Hurd</fullName>
+                <default>false</default>
+                <label>Sophie Hurd</label>
+            </value>
+            <value>
+                <fullName>Steve Beeson</fullName>
+                <default>false</default>
+                <label>Steve Beeson</label>
+            </value>
+            <value>
+                <fullName>Tyler Fixman</fullName>
+                <default>false</default>
+                <label>Tyler Fixman</label>
+            </value>
+            <value>
+                <fullName>Vicky Norman</fullName>
+                <default>false</default>
+                <label>Vicky Norman</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
