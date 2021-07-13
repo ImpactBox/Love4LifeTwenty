@@ -17,9 +17,8 @@ before_install:
 - export PATH=./sfdx/$(pwd):$PATH
 - sfdx --version
 - sfdx plugins --core
-- sfdx auth:jwt:grant --clientid $CONSUMERKEY --jwtkeyfile assets/server.key --username
-  $USERNAME --setdefaultdevhubusername -a HubOrg
+- sfdx auth:jwt:grant --clientid $CONSUMERKEY --jwtkeyfile assets/server.key --username $USERNAME --setdefaultdevhubusername -a HubOrg
 script:
-- validateOrg.sh
+- ./validateOrg.sh
 notifications:
   slack: impactbox:1mP6IZhybLYA8INhM9QUMMfh
