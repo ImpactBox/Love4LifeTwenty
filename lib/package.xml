@@ -5,10 +5,22 @@
         <members>Case</members>
         <members>Contact</members>
     </types>
+     <types>
+        <name>Layout</name>
+        <members>Case-Safeguarding Layout</members>
+    </types>
     <types>
         <name>FlexiPage</name>
         <members>YoungPerson</members>
         <members>Contact</members>
+    </types>
+    <types>
+        <name>Flow</name>
+        <members>Stamp_DSO_Details_on_Case</members>
+    </types>
+    <types>
+        <name>CustomApplication</name>
+        <members>Love4Life</members>
     </types>
     <version>51.0</version>
 </Package>
