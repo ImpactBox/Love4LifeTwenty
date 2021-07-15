@@ -2,8 +2,8 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Donor</fullName>
     <active>true</active>
-    <description>To be used for financial donors who give to Love4Life</description>
-    <label>Donor</label>
+    <description>Used for all contacts who are not Young People</description>
+    <label>General</label>
     <picklistValues>
         <picklist>Contact_Type__c</picklist>
         <values>
