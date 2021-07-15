@@ -13,10 +13,13 @@
         <name>FlexiPage</name>
         <members>YoungPerson</members>
         <members>Contact</members>
+        <members>Service__c</members>
+        <members>Engagement__c</members>
     </types>
     <types>
         <name>Flow</name>
         <members>Stamp_DSO_Details_on_Case</members>
+        <members>CreatedConsentExpiryTask</members>
     </types>
     <types>
         <name>CustomApplication</name>
