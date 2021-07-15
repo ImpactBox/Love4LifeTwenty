@@ -4,6 +4,8 @@
         <name>CustomObject</name>
         <members>Case</members>
         <members>Contact</members>
+        <members>Service__c</members>
+        <members>Engagement__c</members>
     </types>
      <types>
         <name>Layout</name>
@@ -13,8 +15,6 @@
         <name>FlexiPage</name>
         <members>YoungPerson</members>
         <members>Contact</members>
-        <members>Service__c</members>
-        <members>Engagement__c</members>
     </types>
     <types>
         <name>Flow</name>
