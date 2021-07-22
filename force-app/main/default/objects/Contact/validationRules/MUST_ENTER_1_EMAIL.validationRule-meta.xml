@@ -7,6 +7,9 @@
 ISBLANK(   npe01__HomeEmail__c )
  &amp;&amp; 
 ISBLANK(  npe01__WorkEmail__c  )
+
+&amp;&amp; 
+ISBLANK( Email )
 &amp;&amp;
  RecordType.DeveloperName &lt;&gt; &quot;Young_Person&quot;</errorConditionFormula>
     <errorMessage>PLEASE ENTER AT LEAST ONE VALID EMAIL ADDRESS</errorMessage>

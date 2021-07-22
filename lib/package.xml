@@ -25,5 +25,11 @@
         <name>CustomApplication</name>
         <members>Love4Life</members>
     </types>
+    <types>
+        <name>Report</name>
+        <members>Administration/</members>
+        <members>Administration/UpcomingParentalConsentExpiry1</members>
+        <members>Administration/EngagementsMissingConsent</members>
+    </types>
     <version>51.0</version>
 </Package>

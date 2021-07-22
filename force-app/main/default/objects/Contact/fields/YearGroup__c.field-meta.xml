@@ -42,9 +42,9 @@
                 <label>Year 12</label>
             </value>
             <value>
-                <fullName>Year 13x</fullName>
+                <fullName>Year 13</fullName>
                 <default>false</default>
-                <label>Year 13x</label>
+                <label>Year 13</label>
             </value>
         </valueSetDefinition>
     </valueSet>

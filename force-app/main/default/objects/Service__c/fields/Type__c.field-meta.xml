@@ -12,9 +12,24 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Girls&apos; Group</fullName>
+                <fullName>Love4Life Group</fullName>
                 <default>false</default>
-                <label>Girls&apos; Group</label>
+                <label>Love4Life Group</label>
+            </value>
+            <value>
+                <fullName>121</fullName>
+                <default>false</default>
+                <label>121</label>
+            </value>
+            <value>
+                <fullName>Lunch Club</fullName>
+                <default>false</default>
+                <label>Lunch Club</label>
+            </value>
+            <value>
+                <fullName>In-School Session</fullName>
+                <default>false</default>
+                <label>In-School Session</label>
             </value>
             <value>
                 <fullName>Workshop</fullName>

@@ -332,6 +332,85 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Ethnicity__c</picklist>
+        <values>
+            <fullName>Any other ethnic group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asian%3A Any other Asian background</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asian%3A Bangladeshi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asian%3A Chinese</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asian%3A Indian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asian%3A Pakistani</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Black%3A African</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Black%3A Any other Black%2C African or Caribbean background</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Black%3A Black%2C African%2C Caribbean or Black British</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Black%3A Caribbean</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mixed%3A Any other Mixed or Multiple ethnic background</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mixed%3A White and Asian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mixed%3A White and Black African</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mixed%3A White and Black Caribbean</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>White%3A Any other White background</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>White%3A British</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>White%3A Gypsy or Irish Traveller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>White%3A Irish</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Geographical_Area__c</picklist>
         <values>
             <fullName>Derby</fullName>
@@ -600,6 +679,17 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>ReferralConsentGained__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>RiskAssessment__c</picklist>
         <values>
             <fullName>No risk assessment</fullName>
@@ -629,7 +719,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Year 13x</fullName>
+            <fullName>Year 13</fullName>
             <default>false</default>
         </values>
         <values>
