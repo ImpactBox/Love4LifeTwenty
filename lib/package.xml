@@ -6,10 +6,15 @@
         <members>Contact</members>
         <members>Service__c</members>
         <members>Engagement__c</members>
+        <members>Attendance__c</members>
+        <members>npe4__Relationship__c</members>
     </types>
      <types>
         <name>Layout</name>
         <members>Case-Safeguarding Layout</members>
+        <members>Contact-Young Person Layout</members>
+        <members>npe4__Relationship__c-Relationship Layout</members>
+        <members>Attendance__c-Attendance Layout</members>
     </types>
     <types>
         <name>FlexiPage</name>
