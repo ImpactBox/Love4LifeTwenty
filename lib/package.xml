@@ -20,6 +20,11 @@
         <name>FlexiPage</name>
         <members>YoungPerson</members>
         <members>Contact</members>
+        <members>Love4Life_UtilityBar</members>
+    </types>
+    <types>
+        <name>QuickAction</name>
+        <members>Contact.Create_Safeguarding_Case</members>
     </types>
     <types>
         <name>Flow</name>
