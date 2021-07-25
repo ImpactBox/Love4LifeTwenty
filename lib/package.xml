@@ -15,12 +15,16 @@
         <members>Contact-Young Person Layout</members>
         <members>npe4__Relationship__c-Relationship Layout</members>
         <members>Attendance__c-Attendance Layout</members>
+        <members>Service__c-Service Layout</members>
+        <members>Engagement__c-Engagement Layout</members>
     </types>
     <types>
         <name>FlexiPage</name>
         <members>YoungPerson</members>
         <members>Contact</members>
         <members>Love4Life_UtilityBar</members>
+        <members>Contact_Record_Page2</members>
+
     </types>
     <types>
         <name>QuickAction</name>
@@ -30,6 +34,7 @@
         <name>Flow</name>
         <members>Stamp_DSO_Details_on_Case</members>
         <members>CreatedConsentExpiryTask</members>
+        <members>Service_Assignment_Flow</members>
     </types>
     <types>
         <name>CustomApplication</name>
@@ -40,6 +45,10 @@
         <members>Administration/</members>
         <members>Administration/UpcomingParentalConsentExpiry1</members>
         <members>Administration/EngagementsMissingConsent</members>
+    </types>
+    <types>
+        <name>Profile</name>
+        <members>*</members>
     </types>
     <version>51.0</version>
 </Package>

@@ -309,7 +309,6 @@
     </relatedContent>
     <relatedLists>
         <fields>NAME</fields>
-        <fields>EngagementType__c</fields>
         <fields>Service__c</fields>
         <fields>EngagementStartDate__c</fields>
         <fields>EngagementEndDate__c</fields>

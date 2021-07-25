@@ -7,9 +7,6 @@
         <field>LAST_NAME</field>
     </columns>
     <columns>
-        <field>Engagement__c.EngagementType__c</field>
-    </columns>
-    <columns>
         <field>Engagement__c.Service__c</field>
     </columns>
     <columns>

@@ -9,38 +9,6 @@
     <type>Picklist</type>
     <valueSet>
         <restricted>true</restricted>
-        <valueSetDefinition>
-            <sorted>false</sorted>
-            <value>
-                <fullName>Love4Life Group</fullName>
-                <default>false</default>
-                <label>Love4Life Group</label>
-            </value>
-            <value>
-                <fullName>121</fullName>
-                <default>false</default>
-                <label>121</label>
-            </value>
-            <value>
-                <fullName>Lunch Club</fullName>
-                <default>false</default>
-                <label>Lunch Club</label>
-            </value>
-            <value>
-                <fullName>In-School Session</fullName>
-                <default>false</default>
-                <label>In-School Session</label>
-            </value>
-            <value>
-                <fullName>Workshop</fullName>
-                <default>false</default>
-                <label>Workshop</label>
-            </value>
-            <value>
-                <fullName>Other</fullName>
-                <default>false</default>
-                <label>Other</label>
-            </value>
-        </valueSetDefinition>
+        <valueSetName>Service_Type</valueSetName>
     </valueSet>
 </CustomField>
