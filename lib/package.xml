@@ -21,6 +21,10 @@
         <members>Engagement__c-Engagement Layout</members>
     </types>
     <types>
+        <members>Service_Type</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
         <name>FlexiPage</name>
         <members>YoungPerson</members>
         <members>Contact</members>

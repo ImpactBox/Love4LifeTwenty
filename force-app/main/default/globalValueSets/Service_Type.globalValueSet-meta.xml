@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Love4Life Group</fullName>
+        <default>false</default>
+        <label>Love4Life Group</label>
+    </customValue>
+    <customValue>
+        <fullName>121</fullName>
+        <default>false</default>
+        <label>121</label>
+    </customValue>
+    <customValue>
+        <fullName>Lunch Club</fullName>
+        <default>false</default>
+        <label>Lunch Club</label>
+    </customValue>
+    <customValue>
+        <fullName>In-School Session</fullName>
+        <default>false</default>
+        <label>In-School Session</label>
+    </customValue>
+    <customValue>
+        <fullName>Workshop</fullName>
+        <default>false</default>
+        <label>Workshop</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>Service Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
