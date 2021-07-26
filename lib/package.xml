@@ -65,6 +65,10 @@
         <members>Administration/EngagementsMissingConsent</members>
     </types>
     <types>
+        <name>CustomMetadata</name>
+        <members>IBRegisterSetting.Setting</members>
+    </types>
+    <types>
         <name>Profile</name>
         <members>*</members>
     </types>
