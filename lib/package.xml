@@ -10,6 +10,17 @@
         <members>Attendance__c</members>
         <members>npe4__Relationship__c</members>
     </types>
+    <types>
+        <name>CustomTab</name>
+        <members>Service__c</members>
+        <members>Session__c</members>
+        <members>Engagement__c</members>
+        <members>Attendance__c</members>
+    </types>
+    <types>
+        <name>CustomField</name>
+        <members>Case.Status</members>
+    </types>
      <types>
         <name>Layout</name>
         <members>Case-Safeguarding Layout</members>
@@ -28,6 +39,7 @@
         <name>FlexiPage</name>
         <members>YoungPerson</members>
         <members>Contact</members>
+        <members>Case_Record_Page</members>
         <members>Love4Life_UtilityBar</members>
         <members>Contact_Record_Page2</members>
 
