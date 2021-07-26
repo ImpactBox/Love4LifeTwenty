@@ -42,7 +42,7 @@
         <members>Case_Record_Page</members>
         <members>Love4Life_UtilityBar</members>
         <members>Contact_Record_Page2</members>
-
+        <members>Engagement_Record_Page</members>
     </types>
     <types>
         <name>QuickAction</name>

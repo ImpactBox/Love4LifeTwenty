@@ -180,6 +180,7 @@
     <relatedLists>
         <fields>NAME</fields>
         <fields>Status__c</fields>
+        <fields>Session__c.Date__c</fields>
         <fields>AttendanceDate__c</fields>
         <relatedList>Attendance__c.Engagement__c</relatedList>
     </relatedLists>

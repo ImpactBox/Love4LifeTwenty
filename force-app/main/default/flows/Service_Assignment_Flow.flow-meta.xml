@@ -239,12 +239,26 @@
         <connector>
             <targetReference>Service_Sub_Selection</targetReference>
         </connector>
-        <filterLogic>and</filterLogic>
+        <filterLogic>1 AND (2 OR 3)</filterLogic>
         <filters>
             <field>Type__c</field>
             <operator>EqualTo</operator>
             <value>
                 <elementReference>Service_Type</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>EndDate__c</field>
+            <operator>GreaterThan</operator>
+            <value>
+                <elementReference>Today</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>EndDate__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>true</booleanValue>
             </value>
         </filters>
         <getFirstRecordOnly>false</getFirstRecordOnly>
