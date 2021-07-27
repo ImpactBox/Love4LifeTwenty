@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Specified_Contact_Has_No_Email</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+AND( TEXT(SendConsentFormTo__c) = &quot;Parent/Guardian 1&quot;, Parent1Details__c = FALSE),
+AND( TEXT(SendConsentFormTo__c) = &quot;Parent/Guardian 2&quot;,  PG2HasEmail__c = FALSE),
+AND( TEXT(SendConsentFormTo__c) = &quot;Young Person&quot;,  YPHasEmail__c  = FALSE)
+)</errorConditionFormula>
+    <errorMessage>The form recipient you&apos;ve selected does not have a valid email address in the system. Please change your &apos;send consent form to&apos; selection or update the preferred recipient&apos;s email address</errorMessage>
+</ValidationRule>

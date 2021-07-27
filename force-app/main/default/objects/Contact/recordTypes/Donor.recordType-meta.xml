@@ -5,6 +5,17 @@
     <description>Used for all contacts who are not Young People</description>
     <label>General</label>
     <picklistValues>
+        <picklist>Consent_for_Referral_By__c</picklist>
+        <values>
+            <fullName>Parent%2FGuardian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Young Person</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Contact_Type__c</picklist>
         <values>
             <fullName>Challenge eventer</fullName>

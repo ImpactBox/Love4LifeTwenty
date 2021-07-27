@@ -8,7 +8,7 @@
     </values>
     <values>
         <field>AttendanceDisplayFieldName__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">YPFullName__c</value>
     </values>
     <values>
         <field>AttendanceEnrolmentLookupField__c</field>

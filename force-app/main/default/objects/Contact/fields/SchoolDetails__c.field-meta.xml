@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SchoolDetails__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>If the system cannot find an existing School record to match the young person to, school details provided by the referrer will show here</inlineHelpText>
+    <label>School Details</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

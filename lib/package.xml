@@ -50,10 +50,21 @@
         <members>Contact.Create_Safeguarding_Case</members>
     </types>
     <types>
+        <members>unfiled$public</members>
+        <members>unfiled$public/Consent_Form_Email_1627375577234</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
+        <members>Engagement.Consent_Form_Email_Alert</members>
+        <name>WorkflowAlert</name>
+    </types>
+    <types>
         <name>Flow</name>
         <members>Stamp_DSO_Details_on_Case</members>
         <members>CreatedConsentExpiryTask</members>
         <members>Service_Assignment_Flow</members>
+        <members>Get_Consent_Recipient_Email</members>
+        <members>Send_Consent_Form</members>
     </types>
     <types>
         <name>CustomApplication</name>
