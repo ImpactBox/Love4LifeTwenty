@@ -5,6 +5,21 @@
     <description>Used for all contacts who are not Young People</description>
     <label>General</label>
     <picklistValues>
+        <picklist>Area__c</picklist>
+        <values>
+            <fullName>Derby</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leicester</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loughborough</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Consent_for_Referral_By__c</picklist>
         <values>
             <fullName>Parent%2FGuardian</fullName>

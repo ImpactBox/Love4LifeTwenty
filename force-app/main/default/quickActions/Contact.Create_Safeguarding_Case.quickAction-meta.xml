@@ -5,7 +5,7 @@
         <formula>TODAY()</formula>
     </fieldOverrides>
     <fieldOverrides>
-        <field>StaffMemberReported__c</field>
+        <field>OwnerId</field>
         <formula>$User.Id</formula>
     </fieldOverrides>
     <fieldOverrides>
@@ -46,8 +46,8 @@
             </quickActionLayoutItems>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
-                <field>StaffMemberReported__c</field>
-                <uiBehavior>Edit</uiBehavior>
+                <field>LeadDSO__c</field>
+                <uiBehavior>Required</uiBehavior>
             </quickActionLayoutItems>
         </quickActionLayoutColumns>
     </quickActionLayout>

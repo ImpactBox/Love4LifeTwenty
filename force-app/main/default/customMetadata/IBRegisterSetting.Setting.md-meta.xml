@@ -56,7 +56,7 @@
     </values>
     <values>
         <field>EventConfirmationDateField__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">RegisterCompletedDate__c</value>
     </values>
     <values>
         <field>EventDateField__c</field>
@@ -68,7 +68,11 @@
     </values>
     <values>
         <field>EventNotesField__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">Notes__c</value>
+    </values>
+    <values>
+        <field>EventNotesHelpText__c</field>
+        <value xsi:type="xsd:string">Please add here any additional details that you would like to provide</value>
     </values>
     <values>
         <field>EventObject__c</field>

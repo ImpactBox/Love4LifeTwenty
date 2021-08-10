@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_DSO_Sign_Off_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(DSO1SignOff__c=FALSE,  DSO2SignOff__c=TRUE)</errorConditionFormula>
+    <errorMessage>The Lead DSO must sign this off before a second DSO can approve</errorMessage>
+</ValidationRule>

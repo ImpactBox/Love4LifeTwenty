@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <processMetadataValues>
+            <name>emailAlertSelection</name>
+            <value>
+                <stringValue>Second_DSO_Sign_Off_Needed</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_3_A2</name>
+        <label>Send 2nd sign off email</label>
+        <locationX>300</locationX>
+        <locationY>300</locationY>
+        <actionName>Case.Second_DSO_Sign_Off_Needed</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>myDecision6</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
     <apiVersion>52.0</apiVersion>
     <decisions>
         <name>isChangedDecision4_myRule_3_DSO1SignOff_c</name>
@@ -314,6 +338,37 @@
                     <booleanValue>false</booleanValue>
                 </rightValue>
             </conditions>
+            <conditions>
+                <processMetadataValues>
+                    <name>inputDataType</name>
+                    <value>
+                        <stringValue>Boolean</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>leftHandSideType</name>
+                    <value>
+                        <stringValue>Boolean</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>operatorDataType</name>
+                    <value>
+                        <stringValue>Boolean</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>rightHandSideType</name>
+                    <value>
+                        <stringValue>Boolean</stringValue>
+                    </value>
+                </processMetadataValues>
+                <leftValueReference>myVariable_current.DSO2SignOff__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
             <connector>
                 <targetReference>myRule_3_A1</targetReference>
             </connector>
@@ -498,6 +553,7 @@
             <label>Previously Met - Prev</label>
         </rules>
     </decisions>
+    <description>Stamps details and sends sign off alert</description>
     <formulas>
         <processMetadataValues>
             <name>originalFormula</name>
@@ -505,7 +561,7 @@
                 <stringValue>$User.FirstName &amp;&quot; &quot;&amp; $User.LastName &amp;&quot;, &quot;&amp;TEXT(NOW() )</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_5_myRule_3_A1_1606440911</name>
+        <name>formula_5_myRule_3_A1_1087362493</name>
         <dataType>String</dataType>
         <expression>{!$User.FirstName} &amp;&quot; &quot;&amp; {!$User.LastName} &amp;&quot;, &quot;&amp;TEXT(NOW() )</expression>
     </formulas>
@@ -516,11 +572,11 @@
                 <stringValue>$User.FirstName &amp;&quot; &quot;&amp; $User.LastName &amp;&quot;, &quot;&amp;TEXT(NOW() )</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_9_myRule_7_A1_7499006541</name>
+        <name>formula_9_myRule_7_A1_8986517932</name>
         <dataType>String</dataType>
         <expression>{!$User.FirstName} &amp;&quot; &quot;&amp; {!$User.LastName} &amp;&quot;, &quot;&amp;TEXT(NOW() )</expression>
     </formulas>
-    <interviewLabel>Stamp_DSO_Details_on_Case-4_InterviewLabel</interviewLabel>
+    <interviewLabel>Stamp_DSO_Details_on_Case-5_InterviewLabel</interviewLabel>
     <label>Stamp DSO Details on Case</label>
     <processMetadataValues>
         <name>ObjectType</name>
@@ -742,7 +798,7 @@
         <locationX>300</locationX>
         <locationY>200</locationY>
         <connector>
-            <targetReference>myDecision6</targetReference>
+            <targetReference>myRule_3_A2</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -791,7 +847,7 @@
             </processMetadataValues>
             <field>DSO1SignOffNameDate__c</field>
             <value>
-                <elementReference>formula_5_myRule_3_A1_1606440911</elementReference>
+                <elementReference>formula_5_myRule_3_A1_1087362493</elementReference>
             </value>
         </inputAssignments>
         <object>Case</object>
@@ -875,7 +931,7 @@
             </processMetadataValues>
             <field>DSO2SignOffNameDate__c</field>
             <value>
-                <elementReference>formula_9_myRule_7_A1_7499006541</elementReference>
+                <elementReference>formula_9_myRule_7_A1_8986517932</elementReference>
             </value>
         </inputAssignments>
         <object>Case</object>

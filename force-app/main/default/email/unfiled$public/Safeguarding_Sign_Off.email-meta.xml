@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Safeguarding Sign Off</name>
+    <style>none</style>
+    <subject>DSO Sign Off Required</subject>
+    <textOnly>*Love4Life
+
+Safeguarding Sign Off
+
+A safeguarding report has been signed off by the lead DSO and now needs a second approval. To view the report, click here.
+
+
+Many thanks.
+
+
+Copyright © 2021 | TwentyTwenty | All rights reserved.
+Charity No. 1120694
+
+
+To view our data protection policy, please click here​.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
