@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ConfidenceTotal__c</fullName>
+    <externalId>false</externalId>
+    <formula>I_am_resilient__c + Empowered_to_make_own_decisions__c + Understand_choices_in_relationship__c + Keep_safe_sexual_relationship__c + I_know_how_to_be_safe_online__c + I_can_make_positive_choices_for_myself__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Sums all confidence scores</inlineHelpText>
+    <label>Confidence Total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

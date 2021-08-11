@@ -9,6 +9,7 @@
         <members>Engagement__c</members>
         <members>Attendance__c</members>
         <members>npe4__Relationship__c</members>
+        <members>Survey__c</members>
     </types>
     <types>
         <name>CustomTab</name>
@@ -30,6 +31,7 @@
         <members>Attendance__c-Attendance Layout</members>
         <members>Service__c-Service Layout</members>
         <members>Engagement__c-Engagement Layout</members>
+        <members>Survey__c-Survey Layout</members>
     </types>
     <types>
         <members>Service_Type</members>
