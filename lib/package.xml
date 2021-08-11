@@ -69,6 +69,7 @@
         <members>Service_Assignment_Flow</members>
         <members>Get_Consent_Recipient_Email</members>
         <members>Send_Consent_Form</members>
+        <members>Create_121_Sessions</members>
     </types>
     <types>
         <name>CustomApplication</name>
