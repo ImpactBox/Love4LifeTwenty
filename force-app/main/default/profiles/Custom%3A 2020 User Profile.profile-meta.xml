@@ -1419,6 +1419,9 @@
         <layout>Service__c-Service Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Session__c-Session Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Survey__c-Survey Layout</layout>
     </layoutAssignments>
     <objectPermissions>

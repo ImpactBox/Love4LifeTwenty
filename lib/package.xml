@@ -26,8 +26,8 @@
         <name>Layout</name>
         <members>Case-Safeguarding Layout</members>
         <members>Contact-Young Person Layout</members>
-        <members>Session__c.Session Layout</members>
-        <members>npe4__Relationship__c-Relationship Layout</members>
+        <members>Session__c-Session Layout</members>
+        <members>npe4__Relationship__c-npe4 Relationship Layout</members>
         <members>Attendance__c-Attendance Layout</members>
         <members>Service__c-Service Layout</members>
         <members>Engagement__c-Engagement Layout</members>
@@ -58,7 +58,7 @@
         <name>EmailTemplate</name>
     </types>
     <types>
-        <members>Engagement.Consent_Form_Email_Alert</members>
+        <members>Engagement__c.Consent_Form_Email_Alert</members>
         <members>Case.Second_DSO_Sign_Off_Needed</members>
         <name>WorkflowAlert</name>
     </types>
