@@ -55,6 +55,7 @@
         <members>unfiled$public</members>
         <members>unfiled$public/Consent_Form_Email_1627375577234</members>
         <members>unfiled$public/Safeguarding_Sign_Off</members>
+        <members>unfiled$public/Consent_Email_Classic</members>
         <name>EmailTemplate</name>
     </types>
     <types>
@@ -70,6 +71,10 @@
         <members>Get_Consent_Recipient_Email</members>
         <members>Send_Consent_Form</members>
         <members>Create_121_Sessions</members>
+    </types>
+    <types>
+        <name>ContentAsset</name>
+        <members>*</members>
     </types>
     <types>
         <name>CustomApplication</name>
