@@ -85,6 +85,7 @@
         <members>Administration/</members>
         <members>Administration/UpcomingParentalConsentExpiry1</members>
         <members>Administration/EngagementsMissingConsent</members>
+        <members>Love4Life_Reports/OT_Progress_by_Individual_7AR</members>
     </types>
     <types>
         <name>CustomMetadata</name>
