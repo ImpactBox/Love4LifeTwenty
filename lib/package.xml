@@ -71,6 +71,7 @@
         <members>Get_Consent_Recipient_Email</members>
         <members>Send_Consent_Form</members>
         <members>Create_121_Sessions</members>
+        <members>Set_Contact_Owner_From_Area</members>
     </types>
     <types>
         <name>ContentAsset</name>
@@ -85,7 +86,7 @@
         <members>Administration/</members>
         <members>Administration/UpcomingParentalConsentExpiry1</members>
         <members>Administration/EngagementsMissingConsent</members>
-        <members>Love4Life_Reports/OT_Progress_by_Individual_7AR</members>
+        <members>Love4LifeReports/SOT_Progress_by_Individual_7AR</members>
     </types>
     <types>
         <name>CustomMetadata</name>
