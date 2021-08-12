@@ -27,7 +27,7 @@
         <members>Case-Safeguarding Layout</members>
         <members>Contact-Young Person Layout</members>
         <members>Session__c-Session Layout</members>
-        <members>npe4__Relationship__c-npe4 Relationship Layout</members>
+        <members>npe4__Relationship__c-Relationship Layout</members>
         <members>Attendance__c-Attendance Layout</members>
         <members>Service__c-Service Layout</members>
         <members>Engagement__c-Engagement Layout</members>
@@ -45,6 +45,7 @@
         <members>Love4Life_UtilityBar</members>
         <members>Contact_Record_Page2</members>
         <members>Engagement_Record_Page</members>
+        <members>Contact_Record_Page2</members>
         <members>Session</members>
     </types>
     <types>
@@ -86,7 +87,7 @@
         <members>Administration/</members>
         <members>Administration/UpcomingParentalConsentExpiry1</members>
         <members>Administration/EngagementsMissingConsent</members>
-        <members>Love4LifeReports/SOT_Progress_by_Individual_7AR</members>
+        <members>Love4Life_Reports/SOT_Progress_by_Individual_7AR</members>
     </types>
     <types>
         <name>CustomMetadata</name>

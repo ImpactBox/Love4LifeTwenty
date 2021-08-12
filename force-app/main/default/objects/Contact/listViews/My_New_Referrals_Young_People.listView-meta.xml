@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_New_Referrals_Young_People</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ReferralDate__c</columns>
+    <columns>YearGroup__c</columns>
+    <columns>ParentGuardianFirstName__c</columns>
+    <columns>ReferredBy__c</columns>
+    <columns>Referrer__c</columns>
+    <columns>ReferralDetails__c</columns>
+    <columns>Area__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.Young_Person</value>
+    </filters>
+    <filters>
+        <field>ReferralDate__c</field>
+        <operation>equals</operation>
+        <value>LAST_N_DAYS:14</value>
+    </filters>
+    <label>My New Referrals- Young People</label>
+</ListView>

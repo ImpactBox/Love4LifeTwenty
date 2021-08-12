@@ -333,9 +333,9 @@
                     </value>
                 </processMetadataValues>
                 <leftValueReference>myVariable_current.DSO1SignOff__c</leftValueReference>
-                <operator>IsNull</operator>
+                <operator>EqualTo</operator>
                 <rightValue>
-                    <booleanValue>false</booleanValue>
+                    <booleanValue>true</booleanValue>
                 </rightValue>
             </conditions>
             <conditions>
@@ -364,9 +364,9 @@
                     </value>
                 </processMetadataValues>
                 <leftValueReference>myVariable_current.DSO2SignOff__c</leftValueReference>
-                <operator>IsNull</operator>
+                <operator>EqualTo</operator>
                 <rightValue>
-                    <booleanValue>true</booleanValue>
+                    <booleanValue>false</booleanValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -561,7 +561,7 @@
                 <stringValue>$User.FirstName &amp;&quot; &quot;&amp; $User.LastName &amp;&quot;, &quot;&amp;TEXT(NOW() )</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_5_myRule_3_A1_1087362493</name>
+        <name>formula_5_myRule_3_A1_8725244894</name>
         <dataType>String</dataType>
         <expression>{!$User.FirstName} &amp;&quot; &quot;&amp; {!$User.LastName} &amp;&quot;, &quot;&amp;TEXT(NOW() )</expression>
     </formulas>
@@ -572,11 +572,11 @@
                 <stringValue>$User.FirstName &amp;&quot; &quot;&amp; $User.LastName &amp;&quot;, &quot;&amp;TEXT(NOW() )</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_9_myRule_7_A1_8986517932</name>
+        <name>formula_9_myRule_7_A1_6208184424</name>
         <dataType>String</dataType>
         <expression>{!$User.FirstName} &amp;&quot; &quot;&amp; {!$User.LastName} &amp;&quot;, &quot;&amp;TEXT(NOW() )</expression>
     </formulas>
-    <interviewLabel>Stamp_DSO_Details_on_Case-5_InterviewLabel</interviewLabel>
+    <interviewLabel>Stamp_DSO_Details_on_Case-6_InterviewLabel</interviewLabel>
     <label>Stamp DSO Details on Case</label>
     <processMetadataValues>
         <name>ObjectType</name>
@@ -847,7 +847,7 @@
             </processMetadataValues>
             <field>DSO1SignOffNameDate__c</field>
             <value>
-                <elementReference>formula_5_myRule_3_A1_1087362493</elementReference>
+                <elementReference>formula_5_myRule_3_A1_8725244894</elementReference>
             </value>
         </inputAssignments>
         <object>Case</object>
@@ -931,7 +931,7 @@
             </processMetadataValues>
             <field>DSO2SignOffNameDate__c</field>
             <value>
-                <elementReference>formula_9_myRule_7_A1_8986517932</elementReference>
+                <elementReference>formula_9_myRule_7_A1_6208184424</elementReference>
             </value>
         </inputAssignments>
         <object>Case</object>
