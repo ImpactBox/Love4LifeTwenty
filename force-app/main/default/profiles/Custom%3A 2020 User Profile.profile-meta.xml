@@ -1434,6 +1434,9 @@
     <layoutAssignments>
         <layout>Survey__c-Survey Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>npe4__Relationship__c-L4L Relationship Layout</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>
