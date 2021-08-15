@@ -109,11 +109,7 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentInstanceProperties>
-                    <name>context</name>
-                    <value>RECORD</value>
-                </componentInstanceProperties>
-                <componentName>forceChatter:exposedFeed</componentName>
+                <componentName>forceChatter:recordFeedContainer</componentName>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>

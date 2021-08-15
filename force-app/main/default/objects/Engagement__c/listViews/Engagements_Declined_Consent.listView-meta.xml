@@ -9,7 +9,7 @@
     <columns>SendConsentFormTo__c</columns>
     <columns>ConsentResponse__c</columns>
     <columns>Consent_Form_Submitted__c</columns>
-    <filterScope>Everything</filterScope>
+    <filterScope>Mine</filterScope>
     <filters>
         <field>ConsentResponse__c</field>
         <operation>equals</operation>

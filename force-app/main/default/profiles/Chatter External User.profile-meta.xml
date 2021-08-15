@@ -518,6 +518,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Contact.ReviewStatus__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Contact.RiskAssessment__c</field>
         <readable>false</readable>
     </fieldPermissions>

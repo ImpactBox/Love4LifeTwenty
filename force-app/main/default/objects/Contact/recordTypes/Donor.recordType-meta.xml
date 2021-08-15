@@ -730,6 +730,21 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>ReviewStatus__c</picklist>
+        <values>
+            <fullName>Assigned to Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Eligible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting List</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>RiskAssessment__c</picklist>
         <values>
             <fullName>No risk assessment</fullName>

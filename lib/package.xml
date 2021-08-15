@@ -79,8 +79,24 @@
         <members>*</members>
     </types>
     <types>
+        <name>ReportType</name>
+        <members>*</members>
+    </types>
+    <types>
         <name>CustomApplication</name>
         <members>Love4Life</members>
+    </types>
+    <types>
+        <members>*</members>
+        <name>PermissionSet</name>
+    </types>
+      <types>
+        <members>Sharing</members>
+        <name>Settings</name>
+    </types>   
+    <types>
+        <name>Role</name>
+        <members>*</members>
     </types>
     <types>
         <name>Report</name>
@@ -88,6 +104,8 @@
         <members>Administration/UpcomingParentalConsentExpiry1</members>
         <members>Administration/EngagementsMissingConsent</members>
         <members>Love4Life_Reports/SOT_Progress_by_Individual_7AR</members>
+        <members>Love4Life_Reports/Recent_Referrals_By_Area_6Ch</members>
+        <members>Love4Life_Reports/Waiting_List_YPs_with_SOT_Scores</members>
     </types>
     <types>
         <name>CustomMetadata</name>

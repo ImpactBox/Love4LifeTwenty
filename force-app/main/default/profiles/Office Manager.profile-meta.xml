@@ -519,6 +519,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Contact.ReviewStatus__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Contact.RiskAssessment__c</field>
         <readable>true</readable>
     </fieldPermissions>

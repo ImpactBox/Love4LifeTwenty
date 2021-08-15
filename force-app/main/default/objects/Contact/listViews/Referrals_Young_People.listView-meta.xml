@@ -8,6 +8,8 @@
     <columns>Referrer__c</columns>
     <columns>ReferredbyParent__c</columns>
     <columns>ReferralDetails__c</columns>
+    <columns>Area__c</columns>
+    <columns>ReviewStatus__c</columns>
     <filterScope>Everything</filterScope>
     <filters>
         <field>CONTACT.RECORDTYPE</field>
