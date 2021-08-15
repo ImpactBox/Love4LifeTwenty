@@ -113,7 +113,6 @@
     <types>
         <name>CustomMetadata</name>
         <members>IBRegisterSetting.Setting</members>
-        <members>
     </types>
     <types>
         <name>Profile</name>

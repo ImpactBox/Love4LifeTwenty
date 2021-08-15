@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent1Details__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Contact__r.ParentGuardianEmail__c &lt;&gt;&quot;&quot;,TRUE,FALSE)</formula>
+    <label>PG 1 Has Email</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
