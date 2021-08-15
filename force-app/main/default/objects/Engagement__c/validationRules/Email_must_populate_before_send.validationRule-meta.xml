@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Email_must_populate_before_send</fullName>
-    <active>true</active>
-    <errorConditionFormula>AND( SendConsentForm__c = TRUE, ISBLANK(ConsentRecipientEmail__c))</errorConditionFormula>
-    <errorMessage>Please select a relevant recipient from the &apos;Send Consent Form To&apos; drop-down and then
-wait for the &apos;Consent Recipient Email&apos; field to populate before ticking the &apos;send consent&apos; checkbox.</errorMessage>
-</ValidationRule>

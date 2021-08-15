@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Lead_Contact_required</fullName>
-    <active>false</active>
-    <errorConditionFormula>ISPICKVAL(  Key_Contact__c , &quot;Not Set&quot;)</errorConditionFormula>
-    <errorDisplayField>Key_Contact__c</errorDisplayField>
-    <errorMessage>Lead Contact must be set. Please set the lead contact</errorMessage>
-</ValidationRule>

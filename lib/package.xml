@@ -21,6 +21,8 @@
     <types>
         <name>CustomField</name>
         <members>Case.Status</members>
+        <members>Account.AlternativePhone__c</members>
+        <members>IBRegisterSetting.EventNotesHelpText__c</members>
     </types>
      <types>
         <name>Layout</name>
@@ -111,6 +113,7 @@
     <types>
         <name>CustomMetadata</name>
         <members>IBRegisterSetting.Setting</members>
+        <members>
     </types>
     <types>
         <name>Profile</name>
