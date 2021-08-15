@@ -103,9 +103,9 @@
         <members>Administration/</members>
         <members>Administration/UpcomingParentalConsentExpiry1</members>
         <members>Administration/EngagementsMissingConsent</members>
-        <members>Love4Life_Reports/SOT_Progress_by_Individual_7AR</members>
-        <members>Love4Life_Reports/Recent_Referrals_By_Area_6Ch</members>
-        <members>Love4Life_Reports/Waiting_List_YPs_with_SOT_Scores</members>
+        <members>Love4LifeReports/SOT_Progress_by_Individual_7AR</members>
+        <members>Love4LifeReports/Recent_Referrals_By_Area_6Ch</members>
+        <members>Love4LifeReports/Waiting_List_YPs_with_SOT_Scores</members>
     </types>
     <types>
         <name>CustomMetadata</name>
