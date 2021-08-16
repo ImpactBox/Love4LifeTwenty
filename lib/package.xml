@@ -111,10 +111,6 @@
         <members>Love4Life/Waiting_List_YPs_with_SOT_Scores</members>
     </types>
     <types>
-        <name>CustomMetadata</name>
-        <members>IBRegisterSetting.Setting</members>
-    </types>
-    <types>
         <name>Profile</name>
         <members>*</members>
     </types>
