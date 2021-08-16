@@ -85,6 +85,11 @@
         <members>*</members>
     </types>
     <types>
+        <members>TwentyTwenty_Core_Metrics</members>
+        <members>TwentyTwenty_Core_Metrics/aOHarlVHlEuLGKIONmmxwQAkQBfSxi</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
         <name>CustomApplication</name>
         <members>Love4Life</members>
     </types>
