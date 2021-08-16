@@ -48,6 +48,7 @@
         <members>Engagement_Record_Page</members>
         <members>Contact_Record_Page2</members>
         <members>Session</members>
+        <members>Home_Page_Default</members>
     </types>
     <types>
         <name>QuickAction</name>
